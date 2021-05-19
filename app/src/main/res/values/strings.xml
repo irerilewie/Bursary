@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BursaryChecker</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password_click_here_to_reset_it">Forgot Password? Click Here to Reset it</string>
+    <string name="photo_of_national_id">Photo Of National Id</string>
+    <string name="select">Select</string>
+    <string name="photo_of_birth_certificate">Photo of Birth Certificate</string>
+    <string name="photo_of_fee_structure">Photo of Fee Structure</string>
+    <string name="photo_of_report_form">Photo Of Report Form</string>
+    <string name="apply">Apply</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="new_application">New Application</string>
+    <string name="my_applications">My Applications</string>
+    <string name="cheque_repair">Cheque Repair</string>
+    <string name="help_and_feedback">Help and FeedBack</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="_04_03_2020">04/03/2020</string>
+    <string name="status">Status</string>
+    <string name="pending">Pending</string>
+    <string name="id_number">ID Number</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset">Reset</string>
+    <string name="admin_options">Admin Options</string>
+    <string name="user">User</string>
+    <string name="user_applications">User Applications</string>
+    <string name="show_applications_by_gender">Show Applications By Gender</string>
+</resources>

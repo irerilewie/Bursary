@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/green"
+        app:title="Bursary Applications"
+        android:elevation="3dp"
+        android:id="@+id/toolbar"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/new_application"
+        android:id="@+id/newApplication"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center"
+        android:padding="5dp"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_white_round_corners"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/my_applications"
+        android:id="@+id/myApplications"
+        android:layout_below="@+id/newApplication"
+        android:gravity="center"
+        android:padding="5dp"
+        android:elevation="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_white_round_corners"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/admin_options"
+        android:id="@+id/admin"
+        android:layout_below="@+id/myApplications"
+        android:gravity="center"
+        android:padding="5dp"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_white_round_corners"/>
+
+</RelativeLayout>

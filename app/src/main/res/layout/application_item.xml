@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_round_corners"
+    android:elevation="10dp"
+    android:layout_margin="5dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textStyle="bold"
+        android:text="@string/_1234567890"
+        android:padding="5dp"
+        android:id="@+id/applicationId"
+        android:layout_margin="10dp"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/applicationId"
+        android:text="@string/_04_03_2020"
+        android:padding="5dp"
+        android:id="@+id/applicationDate"
+        android:layout_margin="10dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AF0202"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textStyle="bold"
+        android:layout_below="@+id/applicationDate"
+        android:text="@string/pending"
+        android:padding="5dp"
+        android:id="@+id/applicationStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+</RelativeLayout>
